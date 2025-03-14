@@ -1,0 +1,26 @@
+[project]
+name = "relfs_site"
+version = "1.0.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Rui Nascimento", email = "ruign@me.com" }
+]
+dependencies = [
+  "flet==0.27.6"
+]
+
+[tool.flet.splash]
+color = "#000000"
+dark_color = "#000000"
+web = true
+
+[tool.flet]
+org = "br.com.relfsmodafitness.relfs_site"
+product = "Relf's Recife Moda Fitness"
+company = "Relf's Recife"
+copyright = "Copyright (C) 2025 by Relf's Recife"
+
+[tool.flet.app]
+path = "src"
