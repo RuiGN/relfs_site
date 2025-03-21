@@ -2,7 +2,7 @@
 FROM python:3.11-slim
 
 # Definindo o diretório de trabalho
-WORKDIR /app
+WORKDIR /src
 
 # Copiando os arquivos para o container
 COPY requirements.txt ./
