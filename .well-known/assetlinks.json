@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.relfsmodafitness.relfs_recife",
+      "sha256_cert_fingerprints": [
+        "6A:D3:92:37:E0:25:14:EF:89:38:1A:EF:13:01:E0:C6:96:68:0B:95:DD:85:DD:08:1A:76:8F:22:C5:E2:93:AB"
+      ]
+    }
+  }
+]
