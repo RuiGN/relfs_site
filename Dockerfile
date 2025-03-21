@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8000
 
 # Comando para rodar o aplicativo Flet
-CMD ["flet run", "main.py"]
+CMD flet run --web
